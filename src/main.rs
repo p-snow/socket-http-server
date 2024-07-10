@@ -110,7 +110,6 @@ fn execute_command(header: &str) -> Option<String> {
             } else {
                 eprintln!("Key 'file' not found in HashMap");
             }
-
             return None
         }
         _ => {
