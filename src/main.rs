@@ -9,7 +9,7 @@ use std::process::Command;
 use std::process::Stdio;
 use std::collections::HashMap;
 
-static DOMAIN_SOCK: &str = "/tmp/local-info.sock";
+static DOMAIN_SOCK: &str = "/tmp/machine-info.sock";
 
 fn main() -> std::io::Result<()> {
     // remove existing socket up-front

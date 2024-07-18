@@ -1,0 +1,17 @@
+This is a simple implementation of a Unix Domain Socket server providing an HTTP service. It was primarily developed for [[https://github.com/p-snow/org-web-track][Org Web Track]], an Emacs package that offers a data tracking framework in Org Mode. The following path in the HTTP GET request is supported.
+
+- Getting remaining disk space for file system <fs>
+  #+begin_example
+  /info/fs/avail?file=<fs>
+  #+end_example
+
+* Installation
+
+- building the code
+  #+begin_example
+  cargo build
+  #+end_example
+- running the server
+  #+begin_example
+  cargo run
+  #+end_example
