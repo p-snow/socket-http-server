@@ -1,0 +1,10 @@
+[Unit]
+Description=Unix Socket HTTP Server
+
+[Service]
+ExecStart=%h/.cargo/bin/socket-http-server
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=default.target
