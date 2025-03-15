@@ -1,4 +1,4 @@
 (specifications->manifest
- '(;; "rust"
+ '("rust"
    "rust-cargo"
    "rust-analyzer"))
